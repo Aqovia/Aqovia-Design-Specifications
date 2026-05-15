@@ -1,5 +1,7 @@
 # Aqovia Design Specifications
 
+Public URL for viewing the webpage: https://rawcdn.githack.com/Aqovia/Aqovia-Design-Specifications/master/index.html
+
 Public, LLM-friendly rendering of the Aqovia brand and design specifications.
 GitHub Pages serves `index.html` from the `master` branch — point an LLM (or a
 human) at the published URL and they get colours, logo guidance, fonts, social
