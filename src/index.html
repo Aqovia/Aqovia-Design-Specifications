@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aqovia Design Specifications</title>
+<meta name="description" content="Aqovia brand and design specifications: colours, logos, fonts, social media image guidelines, and post examples." />
+<link rel="icon" type="image/png" href="./Design%20Specifications/Aqovia_-_icon_-_Teal.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Verdana&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          teal: '#00838A',
+          sage: '#B4D2C2',
+          vivid: '#FF6700',
+          cobalt: '#126EF8',
+          jet: '#030303',
+        },
+        fontFamily: {
+          heading: ['Raleway', 'system-ui', 'sans-serif'],
+          body: ['Verdana', 'Geneva', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Verdana', Geneva, sans-serif; }
+  h1, h2, h3, h4 { font-family: 'Raleway', system-ui, sans-serif; }
+  .prose-table table { width: 100%; border-collapse: collapse; }
+  .prose-table th, .prose-table td { border: 1px solid #e5e7eb; padding: 0.75rem 1rem; text-align: left; vertical-align: top; }
+  .prose-table thead { background-color: #f9fafb; }
+  .prose-table th { color: #00838A; font-family: 'Raleway', system-ui, sans-serif; font-weight: 600; }
+</style>
+</head>
+<body class="bg-white text-jet antialiased">
+
+<!-- Top bar -->
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-3">
+      <img src="./Design%20Specifications/Aqovia_-_Teal.png" alt="Aqovia" class="h-8 w-auto" />
+      <span class="font-heading font-semibold text-teal hidden sm:inline">Design Specifications</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-5 text-sm">
+      <a href="#colours" class="hover:text-teal">Colours</a>
+      <a href="#cta" class="hover:text-teal">CTAs</a>
+      <a href="#logo" class="hover:text-teal">Logo</a>
+      <a href="#qmark" class="hover:text-teal">Q Mark</a>
+      <a href="#fonts" class="hover:text-teal">Fonts</a>
+      <a href="#guidelines" class="hover:text-teal">Guidelines</a>
+      <a href="#social" class="hover:text-teal">Social</a>
+      <a href="#examples" class="hover:text-teal">Examples</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="max-w-6xl mx-auto px-6 py-10 md:py-14">
+
+  <!-- Hero -->
+  <section class="mb-16">
+    <p class="text-sm uppercase tracking-widest text-teal font-heading font-semibold">Aqovia &amp; NeuerEnergy</p>
+    <h1 class="font-heading text-4xl md:text-6xl font-bold text-jet mt-3">Design Specifications</h1>
+    <p class="mt-5 max-w-3xl text-gray-700 leading-relaxed">
+      Brand colours, logo usage, fonts and social-media image guidelines. This page is the public,
+      LLM-friendly rendering of the design specification &mdash; all source assets live in the
+      <code class="bg-gray-100 px-1.5 py-0.5 rounded text-sm">Design Specifications/</code> folder of this repository.
+    </p>
+  </section>
+
+  <!-- Colours -->
+  <section id="colours" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">Colours</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+      <!-- Teal -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24" style="background:#00838A"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Primary</div>
+          <div class="font-heading font-semibold">Teal</div>
+          <div class="text-sm font-mono text-gray-600">#00838A</div>
+        </div>
+      </div>
+      <!-- Sage -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24" style="background:#B4D2C2"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Secondary</div>
+          <div class="font-heading font-semibold">Sage</div>
+          <div class="text-sm font-mono text-gray-600">#B4D2C2</div>
+        </div>
+      </div>
+      <!-- Vivid Orange -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24" style="background:#FF6700"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Accent</div>
+          <div class="font-heading font-semibold">Vivid Orange</div>
+          <div class="text-sm font-mono text-gray-600">#FF6700</div>
+        </div>
+      </div>
+      <!-- Cobalt -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24" style="background:#126EF8"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Accent</div>
+          <div class="font-heading font-semibold">Cobalt</div>
+          <div class="text-sm font-mono text-gray-600">#126EF8</div>
+        </div>
+      </div>
+      <!-- White -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24 border-b border-gray-200" style="background:#FFFFFF"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Neutral</div>
+          <div class="font-heading font-semibold">White</div>
+          <div class="text-sm font-mono text-gray-600">#FFFFFF</div>
+        </div>
+      </div>
+      <!-- Jet Black -->
+      <div class="rounded-xl overflow-hidden border border-gray-200">
+        <div class="h-24" style="background:#030303"></div>
+        <div class="p-3">
+          <div class="text-xs uppercase tracking-wider text-gray-500">Neutral</div>
+          <div class="font-heading font-semibold">Jet Black</div>
+          <div class="text-sm font-mono text-gray-600">#030303</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prose-table overflow-x-auto rounded-xl border border-gray-200">
+      <table>
+        <thead>
+          <tr><th>Colour</th><th>Colour Name</th><th>Colour Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Primary colour</td><td>Teal</td><td class="font-mono">#00838A</td></tr>
+          <tr><td>Secondary colour</td><td>Sage</td><td class="font-mono">#B4D2C2</td></tr>
+          <tr><td>Secondary/accent colour</td><td>Vivid Orange</td><td class="font-mono">#FF6700</td></tr>
+          <tr><td>Secondary/accent colour</td><td>Cobalt</td><td class="font-mono">#126EF8</td></tr>
+          <tr><td>Neutral colour</td><td>White</td><td class="font-mono">#FFFFFF</td></tr>
+          <tr><td>Neutral colour</td><td>Jet Black</td><td class="font-mono">#030303</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- How to use colours -->
+  <section id="how-to-use-colours" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">How to use colours</h2>
+    <div class="prose-table overflow-x-auto rounded-xl border border-gray-200">
+      <table>
+        <thead>
+          <tr><th>Background</th><th>Foreground / Text</th><th>Aqovia Brand Logo</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2" style="background:#00838A"></span>Teal</td>
+            <td>White</td><td>White</td>
+            <td>If background colour is Teal, use foreground, text colour, or icons in White.</td>
+          </tr>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2" style="background:#B4D2C2"></span>Sage</td>
+            <td>Jet Black</td><td>Black</td>
+            <td>If background colour is Sage, use foreground, text colour, or icons in Jet Black.</td>
+          </tr>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2" style="background:#FF6700"></span>Vivid Orange</td>
+            <td>Jet Black</td><td>Black</td>
+            <td>If background colour is Vivid Orange, use foreground, text colour, or icons in Jet Black.</td>
+          </tr>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2" style="background:#126EF8"></span>Cobalt</td>
+            <td>White</td><td>White</td>
+            <td>If background colour is Cobalt, use foreground, text colour, or icons in White.</td>
+          </tr>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2 border border-gray-300" style="background:#FFFFFF"></span>White</td>
+            <td>Teal, Jet Black</td><td>Teal</td>
+            <td>If background colour is White, use foreground, text or icons in Jet Black. Use Teal for headings.</td>
+          </tr>
+          <tr>
+            <td><span class="inline-block w-4 h-4 rounded-sm align-middle mr-2" style="background:#030303"></span>Jet Black</td>
+            <td>White</td><td>White</td>
+            <td>If background colour is Jet Black, use foreground, text colour, or icons in White.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CTAs -->
+  <section id="cta" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">Example of CTA</h2>
+
+    <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mt-8 mb-3">For Aqovia</h3>
+    <ul class="space-y-4">
+      <li><p class="font-semibold">Move faster with AI-powered transformation.</p><p class="text-gray-700">Build smarter systems, automate work, and unlock new business value.</p></li>
+      <li><p class="font-semibold">Turn complex technology challenges into scalable solutions.</p><p class="text-gray-700">Click to discover how Aqovia helps enterprises move faster and deliver better outcomes.</p></li>
+      <li><p class="font-semibold">Smarter data. Faster decisions. Better results.</p><p class="text-gray-700">Explore AI and data solutions designed to improve accuracy, efficiency, and growth.</p></li>
+      <li><p class="font-semibold">Build once. Scale with confidence.</p><p class="text-gray-700">Discover secure, cloud-native solutions designed for enterprise growth.</p></li>
+      <li><p class="font-semibold">Reduce delivery risk. Accelerate transformation.</p><p class="text-gray-700">See how Aqovia helps organisations modernise with clarity, speed, and precision.</p></li>
+      <li><p class="font-semibold">Stop managing complexity. Start creating value.</p><p class="text-gray-700">Click to explore digital transformation solutions built for ambitious enterprises.</p></li>
+      <li><p class="font-semibold">From idea to impact — faster.</p><p class="text-gray-700">Discover how Aqovia helps turn strategy into working technology that scales.</p></li>
+      <li><p class="font-semibold">Automate more. Decide faster. Perform better.</p><p class="text-gray-700">Explore AI, cloud, and data solutions that improve how your organisation works.</p></li>
+      <li><p class="font-semibold">Modernise your systems without slowing your business down.</p><p class="text-gray-700">Click to see how Aqovia delivers transformation with speed and control.</p></li>
+      <li><p class="font-semibold">Ready to build smarter, faster, and better?</p><p class="text-gray-700">Talk to Aqovia about your next AI, data, cloud, or digital transformation project.</p></li>
+    </ul>
+
+    <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mt-10 mb-3">For NeuerEnergy</h3>
+    <ul class="space-y-4">
+      <li><p class="font-semibold">Turn carbon data into a business advantage.</p><p class="text-gray-700">Click to discover smarter ways to track, report, and reduce emissions.</p></li>
+      <li><p class="font-semibold">Simplify carbon reporting. Accelerate net zero progress.</p><p class="text-gray-700">Explore NeuerEnergy&rsquo;s platform for clearer, faster sustainability management.</p></li>
+      <li><p class="font-semibold">Track emissions. Model scenarios. Reduce risk.</p><p class="text-gray-700">See how NeuerEnergy helps organisations plan their path to net zero.</p></li>
+      <li><p class="font-semibold">Make sustainability reporting faster, easier, and more reliable.</p><p class="text-gray-700">Click to explore NetZero Lite and NetZero Pro.</p></li>
+      <li><p class="font-semibold">From carbon data to confident action.</p><p class="text-gray-700">Discover how NeuerEnergy helps organisations visualise, plan, and execute net zero strategies.</p></li>
+      <li><p class="font-semibold">Reduce costs. Reduce risk. Reduce emissions.</p><p class="text-gray-700">Explore a smarter platform for managing your net zero journey.</p></li>
+      <li><p class="font-semibold">Stop guessing. Start measuring.</p><p class="text-gray-700">Click to see how better sustainability data leads to better decisions.</p></li>
+      <li><p class="font-semibold">Your net zero journey needs more than spreadsheets.</p><p class="text-gray-700">Discover a smarter way to manage emissions, targets, and progress.</p></li>
+      <li><p class="font-semibold">Make carbon reporting easier to manage and harder to ignore.</p><p class="text-gray-700">Explore NeuerEnergy&rsquo;s plug-and-play SaaS platform for sustainability teams.</p></li>
+      <li><p class="font-semibold">Ready to turn sustainability goals into measurable progress?</p><p class="text-gray-700">Click to discover how NeuerEnergy helps organisations move towards net zero with confidence.</p></li>
+    </ul>
+
+    <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mt-10 mb-3">For Aqovia and NeuerEnergy combined post</h3>
+    <ul class="space-y-4">
+      <li><p class="font-semibold">Move faster. Spend smarter. Scale better.</p><p class="text-gray-700">Discover how Aqovia and NeuerEnergy help organisations modernise operations and accelerate net zero progress.</p></li>
+      <li><p class="font-semibold">Cut complexity. Reduce cost. Improve outcomes.</p><p class="text-gray-700">See how AI, data, cloud, and sustainability platforms can transform the way your business works.</p></li>
+      <li><p class="font-semibold">Faster transformation. Smarter decisions. Lower risk.</p><p class="text-gray-700">Explore solutions built for enterprise growth, operational efficiency, and measurable sustainability impact.</p></li>
+      <li><p class="font-semibold">Make your business faster, leaner, and future-ready.</p><p class="text-gray-700">Click to discover how Aqovia and NeuerEnergy help organisations unlock digital and sustainable value.</p></li>
+      <li><p class="font-semibold">Better data. Better decisions. Better results.</p><p class="text-gray-700">Learn how AI-driven transformation and net zero planning can help your organisation move with confidence.</p></li>
+      <li><p class="font-semibold">Reduce manual work. Improve visibility. Accelerate progress.</p><p class="text-gray-700">Explore smarter ways to manage digital transformation and sustainability goals.</p></li>
+      <li><p class="font-semibold">From strategy to measurable impact — faster.</p><p class="text-gray-700">Click to see how Aqovia and NeuerEnergy help turn complex business challenges into practical solutions.</p></li>
+      <li><p class="font-semibold">Build smarter systems. Track cleaner progress. Deliver better value.</p><p class="text-gray-700">Discover enterprise solutions for AI, cloud, data, and net zero transformation.</p></li>
+      <li><p class="font-semibold">Save time. Control costs. Move with clarity.</p><p class="text-gray-700">See how intelligent technology and sustainability platforms can help your organisation perform better.</p></li>
+      <li><p class="font-semibold">Ready to move faster and operate smarter?</p><p class="text-gray-700">Click to explore how Aqovia and NeuerEnergy can help your business transform with confidence.</p></li>
+    </ul>
+  </section>
+
+  <!-- Logo -->
+  <section id="logo" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">Aqovia Brand Logo</h2>
+    <div class="grid sm:grid-cols-3 gap-4">
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-white p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_Teal.png" alt="Aqovia logo in Teal" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Logo colour: <span class="font-semibold text-teal">Teal</span></figcaption>
+      </figure>
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-jet p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_White.png" alt="Aqovia logo in White" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Logo colour: <span class="font-semibold">White</span></figcaption>
+      </figure>
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-white p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_Black.png" alt="Aqovia logo in Jet Black" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Logo colour: <span class="font-semibold">Jet Black</span></figcaption>
+      </figure>
+    </div>
+
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mt-12 mb-6">Aqovia Brand Icon</h2>
+    <div class="grid sm:grid-cols-3 gap-4">
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-white p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_icon_-_Teal.png" alt="Aqovia Q icon in Teal" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Icon colour: <span class="font-semibold text-teal">Teal</span></figcaption>
+      </figure>
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-jet p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_icon_-_White.png" alt="Aqovia Q icon in White" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Icon colour: <span class="font-semibold">White</span></figcaption>
+      </figure>
+      <figure class="rounded-xl border border-gray-200 overflow-hidden">
+        <div class="bg-white p-8 flex items-center justify-center h-40">
+          <img src="./Design%20Specifications/Aqovia_-_icon_-_Black.png" alt="Aqovia Q icon in Jet Black" class="max-h-20 w-auto" />
+        </div>
+        <figcaption class="px-4 py-2 text-sm text-gray-600 border-t border-gray-200">Icon colour: <span class="font-semibold">Jet Black</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Q mark -->
+  <section id="qmark" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-3">How to use the Q mark on an image</h2>
+    <p class="text-gray-700 mb-6">Use a quarter of the Q mark on the respective corner of the image. Examples:</p>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      <figure class="rounded-xl overflow-hidden border border-gray-200">
+        <img src="./Design%20Specifications/image.png" alt="Q mark in top right corner" class="w-full h-auto" />
+        <figcaption class="px-4 py-2 text-sm text-gray-700 border-t border-gray-200">Top right corner</figcaption>
+      </figure>
+      <figure class="rounded-xl overflow-hidden border border-gray-200">
+        <img src="./Design%20Specifications/image%201.png" alt="Q mark in top left corner" class="w-full h-auto" />
+        <figcaption class="px-4 py-2 text-sm text-gray-700 border-t border-gray-200">Top left corner</figcaption>
+      </figure>
+      <figure class="rounded-xl overflow-hidden border border-gray-200">
+        <img src="./Design%20Specifications/image%202.png" alt="Q mark in bottom right corner" class="w-full h-auto" />
+        <figcaption class="px-4 py-2 text-sm text-gray-700 border-t border-gray-200">Bottom right corner</figcaption>
+      </figure>
+      <figure class="rounded-xl overflow-hidden border border-gray-200">
+        <img src="./Design%20Specifications/image%203.png" alt="Q mark in bottom left corner" class="w-full h-auto" />
+        <figcaption class="px-4 py-2 text-sm text-gray-700 border-t border-gray-200">Bottom left corner</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Fonts -->
+  <section id="fonts" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">Fonts</h2>
+    <div class="grid sm:grid-cols-2 gap-4 mb-6">
+      <div class="rounded-xl border border-gray-200 p-6">
+        <div class="text-xs uppercase tracking-widest text-gray-500">All heading text</div>
+        <div class="font-heading text-4xl font-bold mt-1">Raleway</div>
+        <div class="font-heading mt-3 text-gray-700">AaBbCc 0123456789</div>
+      </div>
+      <div class="rounded-xl border border-gray-200 p-6">
+        <div class="text-xs uppercase tracking-widest text-gray-500">Body text</div>
+        <div class="text-4xl font-bold mt-1" style="font-family:Verdana,Geneva,sans-serif;">Verdana</div>
+        <div class="mt-3 text-gray-700" style="font-family:Verdana,Geneva,sans-serif;">AaBbCc 0123456789</div>
+      </div>
+    </div>
+    <div class="prose-table overflow-x-auto rounded-xl border border-gray-200">
+      <table>
+        <thead><tr><th>All Heading Text</th><th>Body Text</th><th>Style</th></tr></thead>
+        <tbody><tr><td>Raleway</td><td>Verdana</td><td>Regular</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Detailed Brand Guidelines -->
+  <section id="guidelines" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-4">Detailed Brand Guidelines</h2>
+    <p class="text-gray-700 mb-4">Refer to this PDF for detailed brand guidelines on the use of images and the Aqovia brand icon.</p>
+    <a href="./Design%20Specifications/2026_Brand_Guidelines.pdf"
+       class="inline-flex items-center gap-2 rounded-lg bg-teal text-white px-4 py-2.5 font-heading font-semibold hover:bg-teal/90 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L11 13.586V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+      2026 Brand Guidelines.pdf
+    </a>
+  </section>
+
+  <!-- Social media -->
+  <section id="social" class="mb-16 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-4">Social media image dimensions, formats &amp; file size</h2>
+    <div class="grid sm:grid-cols-3 gap-4 mb-10">
+      <div class="rounded-xl border border-gray-200 p-5">
+        <div class="text-xs uppercase tracking-widest text-gray-500">Image dimensions</div>
+        <div class="mt-2 font-heading font-semibold">Square &mdash; 1080 &times; 1080 px</div>
+        <div class="font-heading font-semibold">Portrait &mdash; 1080 &times; 1350 px</div>
+      </div>
+      <div class="rounded-xl border border-gray-200 p-5">
+        <div class="text-xs uppercase tracking-widest text-gray-500">File formats</div>
+        <div class="mt-2 font-heading font-semibold">PNG &middot; JPG &middot; GIF</div>
+      </div>
+      <div class="rounded-xl border border-gray-200 p-5">
+        <div class="text-xs uppercase tracking-widest text-gray-500">Max file size</div>
+        <div class="mt-2 font-heading font-semibold">5 MB</div>
+      </div>
+    </div>
+
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-3">Reference for social media post images</h2>
+    <p class="text-gray-700 mb-2">
+      <strong>Note:</strong> Use the Aqovia logo in the image from the options above. Add a quarter section of the Q mark at a suitable corner if possible. Use the Q mark with opacity/transparency so it doesn&rsquo;t appear bold.
+    </p>
+    <p class="text-gray-700 mb-6">
+      The reference images below may not have exact brand colours &mdash; always use the proper brand colours from the colours table.
+    </p>
+
+    <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mb-3">Option 1</h3>
+    <p class="text-gray-700 mb-4">
+      In the style of the hero section of <a class="text-teal underline" href="https://www.aqovia.com">www.aqovia.com</a>. Use a macro or micro nature scene, people (male/female) working on a computer, or a building image in the background. Foreground content and graphics should not mix into the background.
+    </p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+      <img src="./Design%20Specifications/CSRD-and-Omnibus-1.png" alt="Reference image &ndash; CSRD &amp; Omnibus" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_28_21_PM.png" alt="Reference image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/image%204.png" alt="Reference image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/image%205.png" alt="Reference image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_49_32_PM.png" alt="Reference image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/image%206.png" alt="Reference image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+    </div>
+
+    <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mb-3">Option 2</h3>
+    <p class="text-gray-700 mb-4">Social media post with a solid background colour. Follow the brand guidelines for colour usage.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <img src="./Design%20Specifications/ChatGPT_Image_May_6_2026_06_03_37_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_6_2026_06_04_00_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_6_2026_05_59_23_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_07_28_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_03_43_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_18_48_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_16_16_PM.png" alt="Reference image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+    </div>
+  </section>
+
+  <!-- Post examples -->
+  <section id="examples" class="mb-20 scroll-mt-20">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jet mb-6">Example of post content and post image</h2>
+
+    <!-- Option 1 -->
+    <article class="rounded-2xl border border-gray-200 p-6 md:p-8 mb-8">
+      <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mb-4">Option 1</h3>
+      <p class="text-gray-700 mb-3">Use the post content to generate a catchy title and other content for the image.</p>
+
+      <div class="rounded-xl bg-gray-50 border border-gray-200 p-5 mb-6">
+        <div class="text-xs uppercase tracking-widest text-gray-500 mb-2">Post content</div>
+        <div class="space-y-3 text-gray-800">
+          <p>The EU is formally recalibrating CSRD via Omnibus I to reduce reporting burden while keeping the core objectives intact.</p>
+          <p>Most teams respond to regulation by adding more pipelines, schemas and edge-case logic. That&rsquo;s expensive and brittle.</p>
+          <p>I keep advising engineering leaders to identify the small set of auditable sustainability metrics, standardise collection, and collapse redundant ETL &mdash; fewer sources, cleaner proofs.</p>
+          <p>How are you simplifying sustainability telemetry in your stack?</p>
+          <p class="text-teal">#sustainability #engineering #compliance #CSRD</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="text-xs uppercase tracking-widest text-gray-500 mb-2">Image for the post</div>
+        <img src="./Design%20Specifications/image%207.png" alt="Example post image &ndash; Option 1" class="rounded-xl border border-gray-200 w-full h-auto" />
+      </div>
+    </article>
+
+    <!-- Option 2 -->
+    <article class="rounded-2xl border border-gray-200 p-6 md:p-8">
+      <h3 class="font-heading text-xl md:text-2xl font-semibold text-teal mb-4">Option 2</h3>
+      <p class="text-gray-700 mb-3">Use the post content and image concept prompt to generate a catchy title, text content, and graphics (based on the image concept prompt).</p>
+
+      <div class="rounded-xl bg-gray-50 border border-gray-200 p-5 mb-4">
+        <div class="text-xs uppercase tracking-widest text-gray-500 mb-2">Post content</div>
+        <div class="space-y-3 text-gray-800">
+          <p>The EU is formally recalibrating CSRD via Omnibus I to reduce reporting burden while keeping the core objectives intact.</p>
+          <p>Most teams respond to regulation by adding more pipelines, schemas and edge-case logic. That&rsquo;s expensive and brittle.</p>
+          <p>I keep advising engineering leaders to identify the small set of auditable sustainability metrics, standardise collection, and collapse redundant ETL &mdash; fewer sources, cleaner proofs.</p>
+          <p>How are you simplifying sustainability telemetry in your stack?</p>
+          <p class="text-teal">#sustainability #engineering #compliance #CSRD</p>
+        </div>
+      </div>
+
+      <div class="rounded-xl bg-gray-50 border border-gray-200 p-5 mb-6">
+        <div class="text-xs uppercase tracking-widest text-gray-500 mb-2">Image concept prompt</div>
+        <p class="text-gray-800 italic">A clean dashboard showing three bold sustainability metrics with faded, redundant pipelines in the background being pruned.</p>
+      </div>
+
+      <div>
+        <div class="text-xs uppercase tracking-widest text-gray-500 mb-2">Image for the post</div>
+        <img src="./Design%20Specifications/ChatGPT_Image_May_7_2026_05_54_02_PM.png" alt="Example post image &ndash; Option 2" class="rounded-xl border border-gray-200 w-full h-auto" />
+      </div>
+    </article>
+  </section>
+
+</main>
+
+<footer class="border-t border-gray-200 py-8">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-600">
+    <div class="flex items-center gap-2">
+      <img src="./Design%20Specifications/Aqovia_-_icon_-_Teal.png" alt="" class="h-5 w-auto" />
+      <span>Aqovia Design Specifications</span>
+    </div>
+    <div>
+      <a href="https://github.com/Aqovia/Aqovia-Design-Specifications" class="text-teal hover:underline">View source on GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
