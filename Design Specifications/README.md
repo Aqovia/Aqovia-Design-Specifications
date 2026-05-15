@@ -95,6 +95,10 @@ Click to explore how Aqovia and NeuerEnergy can help your business transform wit
 
 ## Aqovia Brand Logo
 
+Aqovia Brand logo as is as in the attached logo images. Logo colour should not be different for brant type and brand icon for the logo. Brand icon can be in other colour (check Aqovia Brand Icon section for the colours) if it is used saperately. 
+
+Never use Aqovia Brand logo twice on the same image.
+
 Logo colour: Teal
 
 ![Aqovia - Teal.png](Design%20Specifications/Aqovia_-_Teal.png)
@@ -107,7 +111,7 @@ Logo colour: Jet Black
 
 ![Aqovia - Black.png](Design%20Specifications/Aqovia_-_Black.png)
 
-## Aqovia Brand Icon
+## Aqovia Brand Icon (Q mark)
 
 Logo colour: Teal
 
@@ -198,8 +202,6 @@ Social media post with solid background colour. Please follow the [band guidelin
 ![ChatGPT Image May 7, 2026, 05_07_28 PM.png](Design%20Specifications/ChatGPT_Image_May_7_2026_05_07_28_PM.png)
 
 ![ChatGPT Image May 7, 2026, 05_03_43 PM.png](Design%20Specifications/ChatGPT_Image_May_7_2026_05_03_43_PM.png)
-
-![ChatGPT Image May 7, 2026, 05_18_48 PM.png](Design%20Specifications/ChatGPT_Image_May_7_2026_05_18_48_PM.png)
 
 ![ChatGPT Image May 7, 2026, 05_16_16 PM.png](Design%20Specifications/ChatGPT_Image_May_7_2026_05_16_16_PM.png)
 
