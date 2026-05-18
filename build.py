@@ -1,3 +1,4 @@
+from typing import Tuple
 #!/usr/bin/env python3
 """
 Build a single self-contained index.html.
@@ -50,7 +51,7 @@ def has_alpha(img: Image.Image) -> bool:
     return False
 
 
-def compress_image(asset: Path) -> tuple[bytes, str]:
+def compress_image(asset: Path) -> Tuple[bytes, str]:
     with Image.open(asset) as im:
         im.load()
         w, h = im.size
