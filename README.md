@@ -45,6 +45,8 @@ If you also want to keep the markdown spec in sync, update
 
 ## What `build.py` does
 
+## Use 'run .venv/bin/python build.py' to build instead of just 'build.py'
+
 For every `src="./..."` / `href="./..."` it finds in `src/index.html`:
 
 - **Images** (`.png .jpg .jpeg .gif .webp .bmp`) are
